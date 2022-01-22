@@ -1,0 +1,4 @@
+INSERT INTO Users(name,email) VALUES ( 'Kristin','kristin@unal.edu.co') --->	insertar nuevo elemento
+DELETE FROM Users WHERE email = 'angie.23@gmail.com' 			--->	eliminar elementos de una tabla
+SELECT*FROM Users WHERE email ='hdjaaj@gmail.com'     			--->	filtrar por email
+SELECT*FROM Users ORDER BY email 					--->	ordenar de A-z
